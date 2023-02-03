@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="login-page">
+        <div class="container">
+
+            <div class="row d-flex justify-content-between pt-3 head">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <img src="./img/raintree-logo.png" alt="raintree">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-end p-3">
+                    <a href="https://www.raintreehotels.com/" target="_blank">www.raintreehotels.com</a>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-between pt-3">
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <img src="./img/hotel.jpg" alt="hotel" width="95%" class=" d-flex m-auto">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5 form">
+                    <h4>Welcome to The Raintree,St Mary's Road</h4>
+                    <h5>Login to access the internet service</h5>
+                        <form onsubmit="validateForm()">
+                            <div class="form-data">
+                                <input type="text" placeholder="Room Number" required>
+                                <input type="text" placeholder="Last Name" required>
+                                <select required>
+                                    <option selected disabled hidden>Select a Plan</option>
+                                    <option value="">Plan 1</option>
+                                    <option value="">Plan 2</option>
+                                    <option value="">Plan 3</option>
+                                </select>
+                            </div>
+                            <div class="d-flex align-items-center ms-3 pt-2 terms">
+                                <div class="checkbox pe-3">
+                                    <input type="checkbox" required>
+                                </div>
+                                <div >
+                                    <p>I agree to<a href="">Terms & Conditions</a></p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center ms-3 click">
+                                <div>
+                                    <p class="pe-5 ">Non Resident Guest - <a href="">Click Here</a></p>
+                                </div>
+                                <div>
+                                    <button type="submit">LOGIN</button>  
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-between align-items-center pt-3 pb-4 footer" >
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <p class="px-5 m-0">Powered By</p>
+                    <img src="./img/microsense.png" alt="microsense" width="50%">
+                </div>
+            </div>
+
+        </div>        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
